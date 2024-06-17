@@ -21,6 +21,7 @@
 html,
 body {
     margin: 0;
+    padding: 0;
     height: 100dvh;
     margin: auto;
     max-width: 1200px;
@@ -44,6 +45,34 @@ header {
     justify-content: center;
     flex-grow: 1;
     position: relative;
+}
+
+header figure,
+.header-square {
+    margin: 0;
+    padding: 0;
+}
+
+.header-squares {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-square {
+    width: 100px;
+    height: 100px;
+}
+
+.header-green-img {
+    background-color: var(--main-green);
+    height: 250px;
+    width: 600px;
+}
+
+.header-brown-img {
+    background-color: var(--main-brown);
+    height: 250px;
+    width: 600px;
 }
 
 .background-image {
@@ -82,33 +111,7 @@ header {
     height: auto;
 }
 
-header figure,
-.header-square {
-    margin: 0;
-    padding: 0;
-}
 
-.header-squares {
-    display: flex;
-    flex-direction: column;
-}
-
-.header-square {
-    width: 100px;
-    height: 100px;
-}
-
-.header-green-img {
-    background-color: var(--main-green);
-    height: 250px;
-    width: 600px;
-}
-
-.header-brown-img {
-    background-color: var(--main-brown);
-    height: 250px;
-    width: 600px;
-}
 
 /* Navbar */
 .navbar {
