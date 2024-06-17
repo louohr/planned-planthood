@@ -10,42 +10,180 @@
 
 <body>
   <main>
-    <header>
-      <figure>
-        <img src="images/green_succulent_plant.jpg">
-      </figure>
-      <nav>
-        <a>Planer</a>
-        <a>Historik</a>
-        <a>Tips</a>
-        <a>Logga in</a>
-      </nav>
+    <header class="header-content">
+      <div class="header-left">
+        <div class="background-image">
+          <img src="assets/logo.svg" class="overlay-image" alt="green succulent plant">
+        </div>
+        <section class="header-squares">
+          <figure class="header-square header-brown-img">
+            <img src="assets/seedling.svg" class="overlay-seedling" alt="seedling">
+          </figure>
+          <figure class="header-square header-green-img">
+            <img src="assets/dig.svg" class="overlay-dig" alt="Dig">
+          </figure>
+        </section>
+      </div>
     </header>
 
-    <section>
-      <h1>Planned Planthood</h1>
-      <h2>Säsong att så</h2>
-      <p>Våren är äntligen här i kollektivet!</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua.</p>
-      <button>Så-tips</button>
-    </section>
+    <!--Navbar-->
+    <nav class="navbar">
+      <ul>
+        <li><a href="#">PLANER</a></li>
+        <li><a href="#">HISTORIK</a></li>
+        <li><a href="#">TIPS</a></li>
+        <li><a href="#">LOGGA IN</a></li>
+      </ul>
+    </nav>
 
-    <h2>Våra planerade ritningar:</h2>
-    <section class="gallery">
-      <article>
-        <img src="images/gurka.avif" alt="gurka">
-        <section class="text">
-          <h3>Gurka</h3>
-          <p>Rico Coolio</p>
-          <button>ta bort</button>
+    <section class="planned-planthood">
+      <h1>PLANNED PLANTHOOD</h1>
+      <section class="planned-content">
+        <section class="circle-container">
+          <figure class="circle"></figure>
+          <img src="assets/Vectorseedpackage.svg" class="overlay-seed" alt="seed-icon">
         </section>
-      </article>
 
-
+        <section class="planned-text">
+          <h2>Säsong att så</h2>
+          <p>Våren är äntligen här!</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua.
+          </p>
+          <button class="plant-btn">SÅ-TIPS</button>
+        </section>
+      </section>
+      <hr class="planned-hr">
     </section>
-  </main>
 
+    <!-- Card section -->
+    <h3 class="card-h3">Våra planerade planteringar:</h3>
+    <section class="card-container">
+      <section class="card">
+        <section class="card-img" id="card1"><img class="card-icon" src="assets/plant.svg"></section>
+        <section class="card-info-1">
+          <h1 class="card-title">Gurka</h1>
+          <h2 class="card-date">15 april 2024</h2>
+        </section>
+
+        <section class="card-info-2">
+          <h1 class="card-user">Rico Coolio</h1>
+          <button class="card-btn">TA BORT</button>
+        </section>
+      </section>
+
+      <section class="card">
+        <section class="card-img" id="card2"><img class="card-icon" src="assets/plant.svg"></section>
+        <section class="card-info-1">
+          <h1 class="card-title">Tomat</h1>
+          <h2 class="card-date">15 april 2024</h2>
+        </section>
+
+        <section class="card-info-2">
+          <h1 class="card-user">Majvor och P-Å</h1>
+          <button class="card-btn">TA BORT</button>
+        </section>
+      </section>
+
+      <section class="card">
+        <section class="card-img" id="card3"><img class="card-icon" src="assets/plant.svg"></section>
+        <section class="card-info-1">
+          <h1 class="card-title">Tomat</h1>
+          <h2 class="card-date">15 april 2024</h2>
+        </section>
+        <section class="card-info-2">
+          <h1 class="card-user">Majvor och P-Å</h1>
+          <button class="card-btn">TA BORT</button>
+        </section>
+      </section>
+
+      <section class="card">
+        <section class="card-img" id="card4"><img class="card-icon" src="assets/plant.svg"></section>
+        <section class="card-info-1">
+          <h1 class="card-title">Sockerärtor</h1>
+          <h2 class="card-date">15 april 2024</h2>
+        </section>
+        <section class="card-info-2">
+          <h1 class="card-user">Frippe</h1>
+          <button class="card-btn">TA BORT</button>
+        </section>
+      </section>
+
+      <section class="card">
+        <section class="card-img" id="card5"><img class="card-icon" src="assets/plant.svg"></section>
+        <section class="card-info-1">
+          <h1 class="card-title">Majrova</h1>
+          <h2 class="card-date">15 april 2024</h2>
+        </section>
+        <section class="card-info-2">
+          <h1 class="card-user">Emma på 4an</h1>
+          <button class="card-btn">TA BORT</button>
+        </section>
+      </section>
+
+      <section class="card">
+        <section class="card-img" id="card6"><img class="card-icon" src="assets/plant.svg"></section>
+        <section class="card-info-1">
+          <h1 class="card-title">Squash</h1>
+          <h2 class="card-date">15 april 2024</h2>
+        </section>
+        <section class="card-info-2">
+          <h1 class="card-user">Perra J</h1>
+          <button class="card-btn">TA BORT</button>
+        </section>
+      </section>
+
+      <section class="card-container-btn">
+        <button class="show-more-btn">VISA FLER</button>
+      </section>
+    </section>
+
+    <section class="planned-planthood">
+      <section class="planned-content">
+        <section class="circle-container">
+          <figure class="circle"></figure>
+          <img src="assets/plant.svg" class="overlay-seed" alt="seed-icon">
+        </section>
+
+        <section class="planned-text">
+          <h2>Våra tidigare odlingar</h2>
+          <p>Våren är äntligen här i kollektivet!</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua.
+          </p>
+          <button class="plant-btn">Planterade plantor</button>
+        </section>
+      </section>
+
+      <!---footer-->
+      <footer class="footer-container">
+        <section class="footer-1">
+          <img src="assets/Logo.svg" alt="hand logo">
+        </section>
+
+        <section class="footer-2">
+          <h1 class="footer-heading">Vi hörs!</h1>
+
+          <section class="footer-contact-container">
+            <section class="phone">
+              <img src="assets/call_24dp_FILL0_wght400_GRAD0_opsz24.svg">
+            </section>
+            <section class="footer-contact-text">0701-234567</section>
+          </section>
+          <section class="mail">
+            <img src="assets/mail_24dp_FILL0_wght400_GRAD0_opsz24.svg">
+          </section>
+          <section class="footer-contact-text">mail@mail.se</section>
+        </section>
+      </footer>
+
+      <section class="to-the-top">
+        <a href="#top">Till toppen av sidan</a>
+      </section>
+
+  </main>
 </body>
 
 </html>
