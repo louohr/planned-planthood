@@ -27,14 +27,6 @@ body {
 }
 
 /* Header */
-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    padding: 10px;
-    margin: 0;
-}
 
 .header-left {
     display: flex;
@@ -114,7 +106,6 @@ header figure,
 .navbar {
     background-color: var(--main-white);
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
     padding: 20px 30px 20px 30px;
     margin: 0 auto;
@@ -154,7 +145,6 @@ header figure,
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 40px;
     margin-left: 9px;
     max-width: 1001px;
 }
@@ -175,11 +165,9 @@ h2 {
 
 .planned-content {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 100px 30px 200px 30px;
-    background-color: var(--main-white);
 }
 
 .planned-text {
@@ -189,8 +177,7 @@ h2 {
 }
 
 .previous-plantings {
-    flex-direction: row;
-    text-align: left;
+    margin-top: 20px;
 }
 
 .previous-plantings .planned-text {
@@ -286,7 +273,7 @@ p {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
-    max-width: 1000px;
+    max-width: 1001px;
     width: 100%;
     margin-left: 10px;
 }
@@ -294,12 +281,11 @@ p {
 .card-h3 {
     background-color: var(--main-white);
     text-align: center;
-    margin-top: 30px;
     margin-left: 10px;
     font-family: var(--openSans), sans-serif;
     font-size: 2rem;
     font-weight: 600;
-    max-width: 1000px;
+    padding: 20px;
 }
 
 .card {
@@ -432,10 +418,10 @@ p {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
     overflow: hidden;
     max-width: 1000px;
     margin: 0 auto;
+    margin-right: 1px;
 }
 
 .footer-container::after {
