@@ -509,11 +509,13 @@ p {
     }
 
     .header-brown-img {
-        margin-left: 50%;
+        flex-direction: column;
+        align-items: center;
     }
 
     .header-green-img {
-        margin-left: 50%;
+        flex-direction: column;
+        align-items: center;
     }
 
     /* the navbar */
@@ -522,7 +524,7 @@ p {
     }
 
     /* section 1 */
-    .planned-content {
+    .planned-planthood {
         width: 50%;
         margin: 0 auto;
     }
