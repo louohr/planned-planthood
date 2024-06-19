@@ -1,16 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 
 :root {
     --main-black: #010101;
     --main-grey: #808080;
-    --main-lightpink: #FCF6FC;
+    --main-lightpink: #fcf6fc;
     --main-white: #fff;
-    --main-green: #0A846E;
-    --main-brown: #9E6D52;
-    --main-red: #B93857;
-    --maven: 'Maven Pro';
-    --openSans: 'Open Sans';
+    --main-green: #0a846e;
+    --main-brown: #9e6d52;
+    --main-red: #b93857;
+    --maven: "Maven Pro";
+    --openSans: "Open Sans";
 }
 
 * {
@@ -24,73 +24,75 @@ body {
     background-color: var(--main-lightpink);
     display: flex;
     justify-content: center;
+    width: 100vw;
+}
+
+.wrapper {
+    max-width: 1000px;
+    width: 100%;
+}
+
+figure {
+    margin: 0;
 }
 
 /* Header */
+header {
+    height: 55vh;
+}
 
 .header-container {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-grow: 1;
-    position: relative;
+    width: 100%;
+    height: 100%;
 }
 
 .header-squares {
     display: flex;
     flex-direction: column;
+    width: 100%;
+    height: 100%;
 }
 
 .header-square {
-    width: 100px;
-    height: 100px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .header-green-img {
     background-color: var(--main-green);
-    height: 270px;
-    width: 500px;
 }
 
 .header-brown-img {
     background-color: var(--main-brown);
-    height: 270px;
-    width: 500px;
 }
 
 .background-image {
     background-image: url(images/green_succulent_plant.jpg);
-    width: 501px;
-    height: 540px;
     background-size: cover;
     background-position: center 50%;
-    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 /* icons */
 .overlay-image {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 200px;
     height: auto;
+    max-width: 25vh;
 }
 
 .overlay-dig {
-    position: absolute;
-    top: 75%;
-    left: 75%;
-    transform: translate(-50%, -50%);
     width: 150px;
     height: auto;
 }
 
 .overlay-seedling {
-    position: absolute;
-    top: 25%;
-    left: 75%;
-    transform: translate(-50%, -50%);
     width: 150px;
     height: auto;
 }
@@ -103,7 +105,6 @@ body {
     padding: 20px 30px;
     margin: 0 auto;
     height: 60px;
-    width: 1001px;
     box-shadow: 0px 5px 3px 0px rgba(0, 0, 0, 0.1);
     font-family: var(--maven), sans-serif;
     z-index: 10;
@@ -122,11 +123,9 @@ body {
     justify-content: space-evenly;
     padding: 0;
     margin-top: 0px;
+    width: 100%;
 }
 
-.navbar li {
-    margin: 0 80px;
-}
 
 .navbar:hover {
     color: var(--main-green);
@@ -136,7 +135,6 @@ body {
     display: none;
 }
 
-
 /* Planned planthood section 1 */
 .planned-planthood {
     background-color: var(--main-white);
@@ -144,7 +142,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 1001px;
 }
 
 h1 {
@@ -198,8 +195,8 @@ h2 {
 
 .circle {
     background-color: var(--main-green);
-    height: 360px;
-    width: 360px;
+    height: 100%;
+    width: 100%;
     border-radius: 50%;
     position: absolute;
     top: 10px;
@@ -270,7 +267,6 @@ p {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
-    max-width: 1001px;
     width: 100%;
 }
 
@@ -300,27 +296,27 @@ p {
 
 /* card images */
 #card1 {
-    background-image: url(images/gurka.avif)
+    background-image: url(images/gurka.avif);
 }
 
 #card2 {
-    background-image: url(images/tomat.jpg)
+    background-image: url(images/tomat.jpg);
 }
 
 #card3 {
-    background-image: url(images/tomattwo.jpg)
+    background-image: url(images/tomattwo.jpg);
 }
 
 #card4 {
-    background-image: url(images/sockerärtor.jpg)
+    background-image: url(images/sockerärtor.jpg);
 }
 
 #card5 {
-    background-image: url(images/majrova.avif)
+    background-image: url(images/majrova.avif);
 }
 
 #card6 {
-    background-image: url(images/squash.avif)
+    background-image: url(images/squash.avif);
 }
 
 .card-icon {
@@ -414,7 +410,6 @@ p {
     flex-direction: row;
     align-items: center;
     overflow: hidden;
-    max-width: 1000px;
     margin: 0 auto;
     margin-right: 1px;
 }
@@ -508,15 +503,15 @@ p {
         justify-content: space-around;
     }
 
-    .header-brown-img {
-        flex-direction: column;
-        align-items: center;
+    .header-squares {
+        flex-direction: row;
+        height: 30vh;
+
+        .header-square {
+            width: 100%;
+        }
     }
 
-    .header-green-img {
-        flex-direction: column;
-        align-items: center;
-    }
 
     /* the navbar */
     .navbar {

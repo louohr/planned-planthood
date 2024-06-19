@@ -2,166 +2,177 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Planned Planthood</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-  <main>
+  <div class="wrapper">
     <!--header-->
     <header>
       <section class="header-container">
         <div class="background-image">
-          <img src="assets/logo.svg" class="overlay-image" alt="green succulent plant">
+          <img src="assets/logo.svg" class="overlay-image" alt="green succulent plant" />
         </div>
         <section class="header-squares">
           <figure class="header-square header-brown-img">
-            <img src="assets/seedling.svg" class="overlay-seedling" alt="seedling">
+            <img src="assets/seedling.svg" class="overlay-seedling" alt="seedling" />
           </figure>
           <figure class="header-square header-green-img">
-            <img src="assets/dig.svg" class="overlay-dig" alt="Dig">
+            <img src="assets/dig.svg" class="overlay-dig" alt="Dig" />
           </figure>
         </section>
       </section>
     </header>
+    <main>
+      <nav class="navbar">
+        <ul>
+          <li><a href="#">PLANER</a></li>
+          <li><a href="#">HISTORIK</a></li>
+          <li><a href="#">TIPS</a></li>
+          <li><a href="#">LOGGA IN</a></li>
+        </ul>
+        <button class="hamburger-icon">&#9776;</button>
+      </nav>
 
-    <!--Navbar-->
-    <nav class="navbar">
-      <ul>
-        <li><a href="#">PLANER</a></li>
-        <li><a href="#">HISTORIK</a></li>
-        <li><a href="#">TIPS</a></li>
-        <li><a href="#">LOGGA IN</a></li>
-      </ul>
-      <button class="hamburger-icon">&#9776;</button>
-    </nav>
+      <section class="planned-planthood">
+        <h1>PLANNED PLANTHOOD</h1>
+        <section class="planned-content">
+          <section class="circle-container">
+            <figure class="circle"></figure>
+            <img src="assets/Vectorseedpackage.svg" class="overlay-seed" alt="seed-icon" />
+          </section>
 
-    <section class="planned-planthood">
-      <h1>PLANNED PLANTHOOD</h1>
-      <section class="planned-content">
-        <section class="circle-container">
-          <figure class="circle"></figure>
-          <img src="assets/Vectorseedpackage.svg" class="overlay-seed" alt="seed-icon">
+          <section class="planned-text">
+            <h2>Säsong att så</h2>
+            <p>Våren är äntligen här!</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur. Sit venenatis arcu nunc consectetur neque.
+              Vel amet netus amet eu elit.
+            </p>
+            <button class="seed-btn">SÅ-TIPS</button>
+          </section>
         </section>
-
-        <section class="planned-text">
-          <h2>Säsong att så</h2>
-          <p>Våren är äntligen här!</p>
-          <p>Lorem ipsum dolor sit amet consectetur. Sit venenatis arcu
-            nunc consectetur neque. Vel amet netus amet eu elit.
-          </p>
-          <button class="seed-btn">SÅ-TIPS</button>
-        </section>
-      </section>
-      <hr class="planned-hr">
-    </section>
-
-    <!-- Card section -->
-    <h3 class="card-h3">Våra planerade planteringar:</h3>
-    <section class="card-container">
-      <section class="card">
-        <section class="card-img" id="card1"><img class="card-icon" src="assets/plant.svg"></section>
-        <section class="card-info-1">
-          <h1 class="card-title">Gurka</h1>
-          <h2 class="card-date">15 april 2024</h2>
-        </section>
-
-        <section class="card-info-2">
-          <h1 class="card-user">Rico Coolio</h1>
-          <button class="card-btn">TA BORT</button>
-        </section>
+        <hr class="planned-hr" />
       </section>
 
-      <section class="card">
-        <section class="card-img" id="card2"><img class="card-icon" src="assets/plant.svg"></section>
-        <section class="card-info-1">
-          <h1 class="card-title">Tomat</h1>
-          <h2 class="card-date">15 april 2024</h2>
+      <!--
+      <h3 class="card-h3">Våra planerade planteringar:</h3>
+      <section class="card-container">
+        <section class="card">
+          <section class="card-img" id="card1">
+            <img class="card-icon" src="assets/plant.svg" />
+          </section>
+          <section class="card-info-1">
+            <h1 class="card-title">Gurka</h1>
+            <h2 class="card-date">15 april 2024</h2>
+          </section>
+
+          <section class="card-info-2">
+            <h1 class="card-user">Rico Coolio</h1>
+            <button class="card-btn">TA BORT</button>
+          </section>
         </section>
 
-        <section class="card-info-2">
-          <h1 class="card-user">Majvor och P-Å</h1>
-          <button class="card-btn">TA BORT</button>
+        <section class="card">
+          <section class="card-img" id="card2">
+            <img class="card-icon" src="assets/plant.svg" />
+          </section>
+          <section class="card-info-1">
+            <h1 class="card-title">Tomat</h1>
+            <h2 class="card-date">15 april 2024</h2>
+          </section>
+
+          <section class="card-info-2">
+            <h1 class="card-user">Majvor och P-Å</h1>
+            <button class="card-btn">TA BORT</button>
+          </section>
+        </section>
+
+        <section class="card">
+          <section class="card-img" id="card3">
+            <img class="card-icon" src="assets/plant.svg" />
+          </section>
+          <section class="card-info-1">
+            <h1 class="card-title">Tomat</h1>
+            <h2 class="card-date">15 april 2024</h2>
+          </section>
+          <section class="card-info-2">
+            <h1 class="card-user">Majvor och P-Å</h1>
+            <button class="card-btn">TA BORT</button>
+          </section>
+        </section>
+
+        <section class="card">
+          <section class="card-img" id="card4">
+            <img class="card-icon" src="assets/plant.svg" />
+          </section>
+          <section class="card-info-1">
+            <h1 class="card-title">Sockerärtor</h1>
+            <h2 class="card-date">15 april 2024</h2>
+          </section>
+          <section class="card-info-2">
+            <h1 class="card-user">Frippe</h1>
+            <button class="card-btn">TA BORT</button>
+          </section>
+        </section>
+
+        <section class="card">
+          <section class="card-img" id="card5">
+            <img class="card-icon" src="assets/plant.svg" />
+          </section>
+          <section class="card-info-1">
+            <h1 class="card-title">Majrova</h1>
+            <h2 class="card-date">15 april 2024</h2>
+          </section>
+          <section class="card-info-2">
+            <h1 class="card-user">Emma på 4an</h1>
+            <button class="card-btn">TA BORT</button>
+          </section>
+        </section>
+
+        <section class="card">
+          <section class="card-img" id="card6">
+            <img class="card-icon" src="assets/plant.svg" />
+          </section>
+          <section class="card-info-1">
+            <h1 class="card-title">Squash</h1>
+            <h2 class="card-date">15 april 2024</h2>
+          </section>
+          <section class="card-info-2">
+            <h1 class="card-user">Perra J</h1>
+            <button class="card-btn">TA BORT</button>
+          </section>
+        </section>
+
+        <section class="card-container-btn">
+          <button class="show-more-btn">VISA FLER</button>
         </section>
       </section>
 
-      <section class="card">
-        <section class="card-img" id="card3"><img class="card-icon" src="assets/plant.svg"></section>
-        <section class="card-info-1">
-          <h1 class="card-title">Tomat</h1>
-          <h2 class="card-date">15 april 2024</h2>
-        </section>
-        <section class="card-info-2">
-          <h1 class="card-user">Majvor och P-Å</h1>
-          <button class="card-btn">TA BORT</button>
-        </section>
-      </section>
-
-      <section class="card">
-        <section class="card-img" id="card4"><img class="card-icon" src="assets/plant.svg"></section>
-        <section class="card-info-1">
-          <h1 class="card-title">Sockerärtor</h1>
-          <h2 class="card-date">15 april 2024</h2>
-        </section>
-        <section class="card-info-2">
-          <h1 class="card-user">Frippe</h1>
-          <button class="card-btn">TA BORT</button>
+      <section class="planned-planthood">
+        <section class="planned-content previous-plantings">
+          <section class="planned-text">
+            <h2>Våra tidigare odlingar</h2>
+            <p>Våren är äntligen här i kollektivet!</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua.
+            </p>
+            <button class="plant-btn">Planterade plantor</button>
+          </section>
+          <section class="circle-container">
+            <figure class="circle"></figure>
+            <img src="assets/plant.svg" class="overlay-seed" alt="seed-icon" />
+          </section>
         </section>
       </section>
-
-      <section class="card">
-        <section class="card-img" id="card5"><img class="card-icon" src="assets/plant.svg"></section>
-        <section class="card-info-1">
-          <h1 class="card-title">Majrova</h1>
-          <h2 class="card-date">15 april 2024</h2>
-        </section>
-        <section class="card-info-2">
-          <h1 class="card-user">Emma på 4an</h1>
-          <button class="card-btn">TA BORT</button>
-        </section>
-      </section>
-
-      <section class="card">
-        <section class="card-img" id="card6"><img class="card-icon" src="assets/plant.svg"></section>
-        <section class="card-info-1">
-          <h1 class="card-title">Squash</h1>
-          <h2 class="card-date">15 april 2024</h2>
-        </section>
-        <section class="card-info-2">
-          <h1 class="card-user">Perra J</h1>
-          <button class="card-btn">TA BORT</button>
-        </section>
-      </section>
-
-      <section class="card-container-btn">
-        <button class="show-more-btn">VISA FLER</button>
-      </section>
-    </section>
-
-    <!-- planned planthood section 2 -->
-    <section class="planned-planthood">
-      <section class="planned-content previous-plantings">
-        <section class="planned-text">
-          <h2>Våra tidigare odlingar</h2>
-          <p>Våren är äntligen här i kollektivet!</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua.
-          </p>
-          <button class="plant-btn">Planterade plantor</button>
-        </section>
-        <section class="circle-container">
-          <figure class="circle"></figure>
-          <img src="assets/plant.svg" class="overlay-seed" alt="seed-icon">
-        </section>
-      </section>
-    </section>
-
-    <!---footer-->
+    </main>
     <footer class="footer-container">
       <section class="footer-1">
-        <img src="assets/Logo.svg" alt="hand logo">
+        <img src="assets/Logo.svg" alt="hand logo" />
       </section>
 
       <section class="footer-2">
@@ -169,11 +180,11 @@
 
         <section class="footer-contact-container">
           <section class="phone">
-            <img src="assets/call_24dp_FILL0_wght400_GRAD0_opsz24.svg">
+            <img src="assets/call_24dp_FILL0_wght400_GRAD0_opsz24.svg" />
             <section class="footer-contact-text">0701-234567</section>
           </section>
           <section class="mail">
-            <img src="assets/mail_24dp_FILL0_wght400_GRAD0_opsz24.svg">
+            <img src="assets/mail_24dp_FILL0_wght400_GRAD0_opsz24.svg" />
             <section class="footer-contact-text">mail@mail.se</section>
           </section>
         </section>
@@ -182,9 +193,8 @@
 
     <section class="to-the-top">
       <a href="#top">Till toppen av sidan</a>
-    </section>
-
-  </main>
+    </section>--->
+  </div>
 </body>
 
 </html>
