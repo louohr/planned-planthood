@@ -4,7 +4,7 @@
 :root {
     --main-black: #010101;
     --main-grey: #808080;
-    --main-lightgrey: #fcfcfc;
+    --main-lightpink: #FCF6FC;
     --main-white: #fff;
     --main-green: #0A846E;
     --main-brown: #9E6D52;
@@ -21,7 +21,7 @@
 html,
 body {
     padding: 0;
-    background-color: var(--main-grey);
+    background-color: var(--main-lightpink);
     display: flex;
     justify-content: center;
 }
@@ -100,19 +100,19 @@ header figure,
     height: auto;
 }
 
-
-
 /* Navbar */
 .navbar {
     background-color: var(--main-white);
     display: flex;
     justify-content: space-around;
-    padding: 20px 30px 20px 30px;
+    padding: 20px 30px;
     margin: 0 auto;
     height: 60px;
     width: 1001px;
     box-shadow: 0px 5px 3px 0px rgba(0, 0, 0, 0.1);
     font-family: var(--maven), sans-serif;
+    z-index: 10;
+    position: relative;
 }
 
 .navbar a {
