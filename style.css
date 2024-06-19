@@ -513,12 +513,21 @@ p {
     }
 
     .circle-container {
+        order: 1;
         margin-top: 20px;
+    }
+
+    .circle {
+        height: 15rem;
+        width: 15rem;
+    }
+
+    .seed-btn {
+        align-self: center;
     }
 
     /* section 1 */
     .planned-planthood {
-        width: 90%;
         margin: 0 auto;
     }
 
