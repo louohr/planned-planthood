@@ -21,7 +21,7 @@
 html,
 body {
     padding: 0;
-    background-color: #ffdce3;
+    background-color: var(--main-grey);
     display: flex;
     justify-content: center;
 }
@@ -145,7 +145,6 @@ header figure,
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 9px;
     max-width: 1001px;
 }
 
@@ -275,13 +274,11 @@ p {
     justify-items: center;
     max-width: 1001px;
     width: 100%;
-    margin-left: 10px;
 }
 
 .card-h3 {
     background-color: var(--main-white);
     text-align: center;
-    margin-left: 10px;
     font-family: var(--openSans), sans-serif;
     font-size: 2rem;
     font-weight: 600;
@@ -407,7 +404,6 @@ p {
 }
 
 /*-----Footer-----*/
-/* Footer */
 .footer-container {
     position: relative;
     background-image: url(images/hand.avif);
@@ -490,7 +486,6 @@ p {
     height: 50px;
     max-width: 1000px;
     width: 100%;
-    margin-left: 10px;
 }
 
 .to-the-top a {
