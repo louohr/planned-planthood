@@ -69,6 +69,7 @@ header figure,
     width: 501px;
     height: 540px;
     background-size: cover;
+    background-position: center 50%;
     position: relative;
 }
 
