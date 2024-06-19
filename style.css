@@ -457,17 +457,21 @@ p {
 }
 
 .footer-contact-container {
-    display: flex;
-    justify-content: space-between;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
     width: 88%;
+    display: flex;
     color: var(--main-white);
-    padding-top: 200px;
+    z-index: 2;
 }
 
 .footer-contact-text {
     font-family: var(--maven), sans-serif;
     font-weight: 400;
     font-size: 12px;
+    margin-left: 8px;
 }
 
 .mail,
