@@ -533,9 +533,9 @@ p {
 
     /* grid cards */
     .card-container {
-        display: grid;
-        grid-template-rows: repeat(2, 1fr);
-        gap: 10px;
+        .card {
+            grid-column: span 6;
+        }
     }
 
     /* section 2 */
