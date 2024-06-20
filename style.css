@@ -205,7 +205,6 @@ h2 {
 p {
     font-size: 1rem;
     font-family: var(--maven), sans-serif;
-    text-align: center;
     margin-top: 10px;
     margin-right: auto;
 }
@@ -546,10 +545,6 @@ p {
     .card-container {
         grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
 
-        /* .card {
-            width: 40%;
-        } */
-
         .card-title {
             font-size: 0.9rem;
         }
@@ -590,8 +585,6 @@ p {
     .hamburger-icon {
         width: 30px;
     }
-
-
 
     .card-h3 {
         font-size: 1.5rem;
