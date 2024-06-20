@@ -127,10 +127,6 @@ figure {
     color: var(--main-green);
 }
 
-.hamburger-icon {
-    display: none;
-}
-
 /* Planned planthood section 1 */
 .planned-planthood {
     background-color: var(--main-white);
@@ -476,6 +472,38 @@ p {
     text-decoration: none;
 }
 
+/* hamburger icon */
+.hamburger-icon {
+    display: none;
+    width: 40px;
+    height: 30px;
+    position: relative;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.hamburger-icon span {
+    background: var(--main-white);
+    display: block;
+    height: 4px;
+    width: 100%;
+    position: absolute;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 3px 4px 4px 0px #00000040;
+}
+
+.hamburger-icon span:nth-child(1) {
+    top: 0px;
+}
+
+.hamburger-icon span:nth-child(2) {
+    top: 12px;
+}
+
+.hamburger-icon span:nth-child(3) {
+    top: 24px;
+}
+
 /* Mobile View */
 @media (max-width: 600px) {
 
@@ -493,6 +521,13 @@ p {
         .header-square {
             width: 100%;
         }
+    }
+
+    .hamburger-icon {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
     }
 
     .planned-content {
@@ -582,10 +617,6 @@ p {
         flex-direction: column-reverse;
     }
 
-    .hamburger-icon {
-        width: 30px;
-    }
-
     .card-h3 {
         font-size: 1.5rem;
     }
@@ -612,7 +643,7 @@ p {
     .footer-1,
     .footer-2 {
         margin-left: 0;
-        width: 50%;
+        width: 30%;
         aspect-ratio: 1;
         justify-content: center;
     }
