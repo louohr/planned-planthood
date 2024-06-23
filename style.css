@@ -170,6 +170,12 @@ h2 {
 }
 
 /* Planned planthood section 2 */
+.previous-plantings {
+    display: flex;
+    justify-content: center;
+    padding: 5rem;
+    /* height: 55vh; */
+}
 
 .previous-plantings .planned-text {
     padding-right: 20px;
@@ -535,6 +541,13 @@ p {
         text-align: center;
     }
 
+    .previous-plantings {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
 
     /* the navbar */
     .navbar {
@@ -546,7 +559,12 @@ p {
     }
 
     h1 {
-        font-size: 2rem;
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        white-space: nowrap;
     }
 
 
@@ -557,6 +575,7 @@ p {
     .circle-container {
         order: 1;
         margin-top: 20px;
+        padding: 10px;
     }
 
     .circle {
@@ -626,7 +645,7 @@ p {
         margin: 0 auto;
     }
 
-    .planned-content {
+    .previous-plantings {
         flex-direction: column-reverse;
     }
 
