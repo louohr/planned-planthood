@@ -594,7 +594,6 @@ p {
     /* section 1 */
     .planned-planthood {
         margin: 0 auto;
-        padding-bottom: 2rem;
     }
 
     /* grid cards */
@@ -617,14 +616,17 @@ p {
 
     .card-title {
         font-size: 0.9rem;
+        margin-left: 5px;
     }
 
     .card-date {
         font-size: 0.6rem;
+        margin-right: 5px;
     }
 
     .card-user {
         font-size: 0.6rem;
+        margin-left: 5px;
     }
 
     .card-icon {
