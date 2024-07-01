@@ -591,6 +591,12 @@ p {
         width: 50%;
     }
 
+    .overlay-dig {
+        /* width: 150px; */
+        width: 100%;
+        height: auto;
+    }
+
     /* section 1 */
     .planned-planthood {
         margin: 0 auto;
